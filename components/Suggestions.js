@@ -31,9 +31,9 @@ function Suggestions() {
             <img className="w-10 h-10 rounded-full border p-[2px]" src={profile.avatar}/>
           <div className="flex-1 ml-4">
             <h2 className="font-semibold text-sm">{profile.username}</h2>
-            <h2>Email: {profile.email} </h2>
+            <h2 className="text-xs text-gray-400">Email: {profile.email} </h2>
           </div>
-          
+          <button className="text-blue-400 text-xm font-semibold">Follow</button>
           </div>
         ))
       }
